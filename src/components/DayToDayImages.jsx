@@ -5,7 +5,7 @@ import { wildlifeImages } from "../resources/images";
 export default function DayToDayImages() {
   return (
     <div className="mt-[10rem]">
-      <Marquee speed={180} pauseOnHover={true} className="bg-slate-400 p-10">
+      <Marquee speed={180} className="bg-slate-400 p-10">
         {wildlifeImages.map((currEle, index) => {
           return (
             <div key={index} className="w-11/12">
